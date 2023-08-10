@@ -10,8 +10,8 @@ int main(){
 
     printf("what's your name?");
     //scanf("%s",&name);
-    fgets(name,25,stdin);
-    name[strlen(name)-1] = '\0'; //make the last index word to the empty string
+    fgets(name,25,stdin);    //fgets(str, length of str, stream); 
+    name[strlen(name)-1] = '\0'; //make the last index word change to the empty string
 
     printf("How old are you?");
     scanf("%d",&age);
